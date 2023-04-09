@@ -1,6 +1,11 @@
 # WPRouter
 A router for Wordpress.
 
+## Installation:
+```console
+composer require ivrok/wp-router
+```
+
 ## Usage example:
 ```php
 use Ivrok\WPRouter\WPRoute;
