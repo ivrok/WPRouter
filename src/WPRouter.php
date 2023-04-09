@@ -73,7 +73,7 @@ class WPRouter
 
             $vars = [];
             foreach ($this->getDynamicVars($route->path) as $varName) {
-                $vars[] = (int)get_query_var($varName, false);
+                $vars[] = get_query_var($varName, false);
             }
 
             $route->call($vars);
