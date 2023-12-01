@@ -15,7 +15,7 @@ $usersController = new \UsersController();
 
 $router = new WPRouter();
 $router->addRoute(new WPRoute("show-users", [$usersController, "index"]));
-$router->addRoute(new WPRoute("show-users/{su_id}", fn($suID) => echo $suID);
+$router->addRoute(new WPRoute("show-users/{su_id}", fn($suID) => echo $suID));
 $router->init();
 
 ```
